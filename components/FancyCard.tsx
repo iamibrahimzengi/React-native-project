@@ -19,8 +19,7 @@ export default function FancyCard() {
           <Text style={styles.title}>Peru</Text>
           <Text style={styles.label}>Arequipa, Peru</Text>
           <Text style={styles.description}>
-            {' '}
-            one glimpse of the less-famous but equally impressive archaeological
+            One glimpse of the less-famous but equally impressive archaeological
             sites in Trujillo, colonial architecture of Lima and White City of
             Arequipa will have you researching airfare within seconds.
           </Text>
@@ -39,7 +38,7 @@ const styles = StyleSheet.create({
   },
   card: {
     width: 370,
-    height: 360,
+    height: 380,
     flex: 1,
     flexGrow: 10,
     borderRadius: 20,
@@ -63,17 +62,28 @@ const styles = StyleSheet.create({
   cardBody: {
     flex: 1,
     flexGrow: 1,
+    paddingHorizontal: 12,
   },
   title: {
     color: '#000000',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 4,
   },
   label: {
     color: '#000000',
+    fontSize: 16,
+    marginBottom: 6,
   },
   description: {
-    color: '#000000',
+    color: '#242b2e',
+    fontSize: 14,
+    marginBottom: 12,
+    marginTop: 6,
+    flexShrink: 1,
   },
   footer: {
     color: '#000000',
+    alignSelf: 'flex-end',
   },
 });
