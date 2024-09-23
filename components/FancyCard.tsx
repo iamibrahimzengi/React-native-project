@@ -2,7 +2,6 @@
 import {Image, StyleSheet, Text, View} from 'react-native';
 
 import React from 'react';
-import ElevatedCards from './ElevetedCards';
 
 export default function FancyCard() {
   return (
@@ -37,13 +36,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   card: {
-    width: 370,
+    width: 330,
     height: 380,
     flex: 1,
     flexGrow: 10,
-    borderRadius: 20,
+    borderRadius: 10,
     marginVertical: 12,
-    marginHorizontal: 22,
+    marginHorizontal: 14,
   },
   ElevatedCards: {
     backgroundColor: '#ffffff',
